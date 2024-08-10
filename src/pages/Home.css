@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #0891b2;
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .header .logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .header .selected-button {
+    background-color: #6ee7b7;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+  .hero-section {
+    text-align: center;
+    margin: 32px 0;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+  
+  .carousel-container {
+    width: 100%;
+  }
+  
+
+  .country-table {
+    margin: 16px auto;
+    max-width: 900px;
+  }
+  
+  .country-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .country-table th, .country-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .country-table th {
+    background-color: #0891b2;
+    color: white;
+  }
+
+  .pagination {
+    margin-top: 32px;
+    text-align: center;
+  }
+  

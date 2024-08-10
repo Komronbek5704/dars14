@@ -1,0 +1,30 @@
+.country-container {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .country-details {
+    flex: 1;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .country-name {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .country-flag {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+ 
+  .chart-container {
+    flex: 2;
+  }
+  
